@@ -1,2 +1,3 @@
-***This is a tic tac toe game ***
-Link for the game :
+# This is a Tic Tac Toe Game
+
+Link for the game : 
