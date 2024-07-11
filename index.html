@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="choosePlayer">
+      <h1>Choose Player</h1>
+      <button class="player_one">1 Player Game</button>
+      <button class="player_two">2 Player Game</button>
+    </div>
+
+    <div class="choosePlayer playerNames">
+      <h1>Type your name</h1>
+      <input type="text" id="one_name" required placeholder="Player 1 Name" />
+      <input type="text" id="two_name" required placeholder="Player 2 Name" />
+      <button class="submit">Submit</button>
+    </div>
+
+    <div class="gameBoard">
+      <h1 class="score">Score : <span></span></h1>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+
+    <div class="winScreen">
+      <h1>You Won! Congratulations 🎊</h1>
+      <button class="restartButton">Restart Game</button>
+    </div>
+  </body>
+</html>
