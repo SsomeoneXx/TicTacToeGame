@@ -25,7 +25,7 @@ export function launchGame(gameBoard, winScreen, restartButton) {
         !clicked.classList.contains(player_two)
       ) {
         clicked.classList.add(player_one);
-        // void clicked.offsetWidth;
+        void clicked.offsetWidth;
         clicked.classList.add("lineAnimation");
 
         if (checkWinner(player_one, cells)) {
@@ -45,7 +45,8 @@ export function launchGame(gameBoard, winScreen, restartButton) {
         !clicked.classList.contains(player_two)
       ) {
         clicked.classList.add(player_two);
-        // void clicked.offsetWidth;
+        
+        void clicked.offsetWidth;
         clicked.classList.add("roundAnimation");
 
         if (checkWinner(player_two, cells)) {
